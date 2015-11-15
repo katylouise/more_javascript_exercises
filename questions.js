@@ -3,7 +3,7 @@ var selectElementsStartingWithA = function(array) {
 }
 
 var selectElementsStartingWithVowel = function(array) {
-  return 'Write your method here';
+  return array.filter(el => el[0].match(/[aeiou]/));
 }
 
 var removeNullElements = function(array) {
