@@ -7,11 +7,11 @@ var selectElementsStartingWithVowel = function(array) {
 }
 
 var removeNullElements = function(array) {
-  return 'Write your method here';
+  return array.filter(el => el != null);
 }
 
 var removeNullAndFalseElements = function(array) {
-  return 'Write your method here';
+  return array.filter(function(el) { return el === 0 || el; });
 }
 
 var reverseWordsInArray = function(array) {
