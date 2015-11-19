@@ -25,11 +25,12 @@ var everyPossiblePair = function(array) {
 }
 
 var allElementsExceptFirstThree = function(array) {
-  return 'Write your method here';
+  return array.slice(3, array.length);
 }
 
 var addElementToBeginning = function(array, element) {
-  return 'Write your method here';
+  array.unshift(element);
+  return array;
 }
 
 var sortByLastLetter = function(array) {
